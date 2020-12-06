@@ -6,6 +6,9 @@ import { BiographyComponent } from './biography/biography.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectComponent } from './projects/project/project.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
+import { FrontEndSkillsComponent } from './front-end-skills/front-end-skills.component';
+import { BackEndSkillsComponent } from './back-end-skills/back-end-skills.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { ExperienceComponent } from './experience/experience.component';
     BiographyComponent,
     ProjectsComponent,
     ProjectComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    FooterComponent,
+    FrontEndSkillsComponent,
+    BackEndSkillsComponent
   ],
   imports: [
     BrowserModule

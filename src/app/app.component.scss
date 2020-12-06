@@ -1,0 +1,41 @@
+@import "variabels";
+
+body{
+  background-color: $grey1;
+}
+
+.grid{
+  display: grid;
+  grid-template-areas:
+    "bio fe be"
+    "bio projects projects"
+    "bio projects projects"
+    "experience projects projects"
+    "experience projects projects"
+    "footer footer footer";
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.biography-area{
+  grid-area: bio;
+}
+
+.fe-skill-area{
+  grid-area: fe;
+}
+
+.be-skill-area{
+  grid-area: be;
+}
+
+.experience-area{
+  grid-area: experience;
+}
+
+.projects-area{
+  grid-area: projects;
+}
+
+.footer-area{
+  grid-area: footer;
+}
