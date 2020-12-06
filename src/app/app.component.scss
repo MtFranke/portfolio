@@ -14,6 +14,8 @@ body{
     "experience projects projects"
     "footer footer footer";
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
 }
 
 .biography-area{
