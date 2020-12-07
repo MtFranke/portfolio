@@ -1,4 +1,9 @@
 <section>
-  <p>back-end-skills works!</p>
-
+  <h3>Back-End</h3>
+  <div class="flex" *ngFor="let skill of skills">
+    <p>{{skill.name}}</p>
+    <div class="progress-bar">
+      <div class="progress-bar--fill" [style.width.%]='skill.percentage'></div>
+    </div>
+  </div>
 </section>
