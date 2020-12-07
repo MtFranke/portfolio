@@ -1,5 +1,5 @@
 <section class="grid">
-  <div class="img"></div>
+  <div class="img" [ngStyle]="{'background-image': 'url(' + project.projectImage + ')'}"></div>
   <aside>
     <ul>
       <li *ngFor="let stack of project.projectStack">#{{stack}}</li>

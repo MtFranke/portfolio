@@ -14,21 +14,26 @@ export class ProjectsComponent implements OnInit {
       projectDescription: 'In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.',
       projectStack: ['HTML', 'CSS', 'responsive'],
       projectDemo: 'http',
-      projectRepo: ' '
+      projectRepo: ' ',
+      projectImage: '../../../assets/recipe-page.png'
     },
     {
       projectName: 'My Gallery',
       projectDescription: 'In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ',
       projectStack: ['HTML', 'CSS', 'responsive'],
       projectDemo: 'http',
-      projectRepo: ' '
+      projectRepo: ' ',
+      projectImage: '../../../assets/recipe-page.png'
+
     },
     {
       projectName: 'Checkout',
       projectDescription: 'In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. ',
       projectStack: ['HTML', 'CSS', 'responsive'],
       projectDemo: 'http',
-      projectRepo: ' '
+      projectRepo: ' ',
+      projectImage: '../../../assets/recipe-page.png'
+
     }
   ];
 

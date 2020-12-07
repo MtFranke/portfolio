@@ -4,4 +4,5 @@ export class ProjectModel{
   projectDescription: string;
   projectRepo: string;
   projectDemo: string;
+  projectImage: string;
 }
