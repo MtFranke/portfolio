@@ -1,0 +1,75 @@
+@import "../../variabels";
+$image-column-size: 15rem;
+
+.grid{
+  background-color: $white1;
+  border-radius: $component-bradius;
+  padding: $component-padding;
+  display: grid;
+  grid-template-columns: $image-column-size 1fr;
+  grid-column-gap: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img{
+  background-image: url("../../../assets/recipe-page.png");
+  background-repeat: no-repeat;
+  background-size: 20rem;
+  background-position: -4rem;
+  height: $image-column-size;
+  border-radius: 1rem;
+}
+
+ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+  padding-right: 0.5rem;
+  color: $grey2;
+}
+
+h5{
+  color: $grey5;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+article{
+  color: $grey3;
+  font-size: 0.9rem;
+}
+
+.flex{
+  display: flex;
+}
+button{
+  border: none;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.button--demo{
+  color: $white1;
+  background-color: $blue1;
+}
+.button--code{
+  color: $blue1;
+  background-color: $white1;
+  border: 1px solid $blue1;
+  margin-left: 1rem;
+}
+
+
+aside{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1rem;
+}
