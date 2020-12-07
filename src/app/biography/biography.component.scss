@@ -15,6 +15,7 @@ h5{
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
+
 h6{
   margin:0;
   font-weight: 400;
@@ -24,6 +25,12 @@ h6{
 
 }
 
+article{
+  color: $grey3;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+}
+
 .img{
   background-image: url("../../assets/person.png");
   background-repeat: no-repeat;
@@ -31,4 +38,18 @@ h6{
   background-size: 800px;
   height: 15rem;
   border-radius: 1rem;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  p{
+    color:$grey2;
+    margin: 0;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+  }
+  i{
+    color: $grey2;
+  }
 }
