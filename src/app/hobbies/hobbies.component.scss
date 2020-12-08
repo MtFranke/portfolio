@@ -1,0 +1,42 @@
+@import "../variabels";
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: $white1;
+  padding: $component-padding;
+  border-radius: $component-bradius;
+  font-family: 'Montserrat', sans-serif;
+  grid-row-gap: 1.5rem;
+}
+
+.hobby-img{
+  background-image: url("../../assets/gaming.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: $component-bradius;
+  height: 9rem;
+  margin-bottom: 1.5rem;
+}
+.hobby-name{
+  color: $grey5;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hobby-description{
+  color: $grey3;
+  margin: 0;
+  font-size: 1rem;
+
+}
+
+h3{
+  color: $grey2;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}

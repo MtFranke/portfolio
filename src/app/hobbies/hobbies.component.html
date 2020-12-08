@@ -1,0 +1,8 @@
+<section class="grid">
+  <h3>Hobbies</h3>
+  <div class="hobby" *ngFor="let hobby of hobbies">
+    <div class="hobby-img" [ngStyle]="{'background-image': 'url(' + hobby.image + ')'}"></div>
+    <h4 class="hobby-name">{{hobby.name}}</h4>
+    <p class="hobby-description">{{hobby.description}}</p>
+  </div>
+</section>

@@ -9,6 +9,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
 import { FrontEndSkillsComponent } from './front-end-skills/front-end-skills.component';
 import { BackEndSkillsComponent } from './back-end-skills/back-end-skills.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BackEndSkillsComponent } from './back-end-skills/back-end-skills.compon
     ExperienceComponent,
     FooterComponent,
     FrontEndSkillsComponent,
-    BackEndSkillsComponent
+    BackEndSkillsComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule

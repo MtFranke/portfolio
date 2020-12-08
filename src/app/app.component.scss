@@ -12,6 +12,7 @@ body{
     "bio projects projects"
     "experience projects projects"
     "experience projects projects"
+    "hobbies . ."
     "footer footer footer";
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2rem;
@@ -38,7 +39,9 @@ body{
 .projects-area{
   grid-area: projects;
 }
-
+.hobbies-area{
+  grid-area: hobbies;
+}
 .footer-area{
   grid-area: footer;
 }
