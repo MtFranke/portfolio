@@ -12,7 +12,7 @@ body{
     "bio projects projects"
     "experience projects projects"
     "experience projects projects"
-    "hobbies . ."
+    "hobbies blogs blogs"
     "footer footer footer";
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2rem;
@@ -44,4 +44,8 @@ body{
 }
 .footer-area{
   grid-area: footer;
+}
+
+.blogs-area{
+  grid-area: blogs;
 }

@@ -1,0 +1,39 @@
+@import "../../variabels";
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: $white1;
+  border-radius: $component-bradius;
+  padding: 1rem 0 1rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blog--image{
+  background-image: url("../../../assets/blog.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+a{
+  color: $blue1;
+  padding-top: 1rem;
+}
+.blog-description{
+  color: $grey3;
+}
+
+h6{
+  color: $grey6;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+h3{
+  color: $grey5;
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 11rem;
+}
