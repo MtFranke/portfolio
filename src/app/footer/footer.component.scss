@@ -1,2 +1,19 @@
+@import "../variabels";
+
 footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+}
+
+small{
+  justify-self: center;
+  color: $grey7;
+  font-weight: 600;
+}
+
+hr{
+  color: $grey8;
+  width: 40%;
 }
