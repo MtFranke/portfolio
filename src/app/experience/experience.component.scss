@@ -1,5 +1,56 @@
 @import "../variabels";
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1.5rem;
+}
+
 section{
   background-color: $white1;
+  border-radius: $component-bradius;
+  padding: $component-padding;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  color: $grey2;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.img{
+  //background-image: url("../../assets/addidas.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+  padding-top: 1rem;
+}
+.experience{
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+}
+
+.experience--date{
+  color: $grey3;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.experience--position{
+  color:$grey5;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+
+.experience--description{
+  color: $grey3;
+  font-size: 1rem;
+}
+
+h3{
+  margin: 0;
+  font-size: 1.5rem;
 }

@@ -1,3 +1,11 @@
-<section>
-<p>experience works!</p>
+<section class="grid">
+  <h3>Experiences</h3>
+  <div *ngFor="let exp of experiences" class="experience">
+    <div class="img" [ngStyle]="{'background-image': 'url(' + exp.experienceCompanyLogo + ')'}"></div>
+    <aside >
+      <p class="experience--date">{{exp.experienceDate}}</p>
+      <h4 class="experience--position">{{exp.experienceJobPosition}}</h4>
+      <article class="experience--description">{{exp.experienceDescription}}</article>
+    </aside>
+  </div>
 </section>
