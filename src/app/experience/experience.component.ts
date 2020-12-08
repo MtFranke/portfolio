@@ -12,7 +12,7 @@ export class ExperienceComponent implements OnInit {
     {
       experienceDate: 'Feb 2019 - Current',
       experienceJobPosition: 'Front-end developer',
-      experienceCompanyLogo: '../../assets/addidas.png',
+      experienceCompanyLogo: "../../assets/addidas.png",
       experienceDescription: 'Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.'
     },
     {
