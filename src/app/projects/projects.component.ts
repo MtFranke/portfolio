@@ -15,7 +15,7 @@ export class ProjectsComponent implements OnInit {
       projectStack: ['HTML', 'CSS', 'responsive'],
       projectDemo: 'http',
       projectRepo: ' ',
-      projectImage: '../../../assets/recipe-page.png'
+      projectImage: 'assets/recipe-page.png'
     },
     {
       projectName: 'My Gallery',
@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
       projectStack: ['HTML', 'CSS', 'responsive'],
       projectDemo: 'http',
       projectRepo: ' ',
-      projectImage: '../../../assets/recipe-page.png'
+      projectImage: 'assets/recipe-page.png'
 
     },
     {
@@ -32,7 +32,7 @@ export class ProjectsComponent implements OnInit {
       projectStack: ['HTML', 'CSS', 'responsive'],
       projectDemo: 'http',
       projectRepo: ' ',
-      projectImage: '../../../assets/recipe-page.png'
+      projectImage: 'assets/recipe-page.png'
 
     }
   ];

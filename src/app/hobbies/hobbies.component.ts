@@ -9,9 +9,9 @@ import {HobbyModel} from '../model/hobby.model';
 export class HobbiesComponent implements OnInit {
 
   hobbies: HobbyModel[] = [
-    {name: 'Gaming', description: 'Quisque feugiat malesuada molestie.', image: '../../assets/gaming.png'},
-    {name: 'Cooking', description: 'Quisque feugiat malesuada molestie.', image: '../../assets/cooking.png'},
-    {name: 'Biking', description: 'Quisque feugiat malesuada molestie.', image: '../../assets/biking.png'}
+    {name: 'Gaming', description: 'Quisque feugiat malesuada molestie.', image: 'assets/gaming.png'},
+    {name: 'Cooking', description: 'Quisque feugiat malesuada molestie.', image: 'assets/cooking.png'},
+    {name: 'Biking', description: 'Quisque feugiat malesuada molestie.', image: 'assets/biking.png'}
   ];
 
   constructor() {
