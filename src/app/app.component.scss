@@ -7,17 +7,30 @@ body{
 .grid{
   display: grid;
   grid-template-areas:
-    "bio fe be"
-    "bio projects projects"
-    "bio projects projects"
-    "experience projects projects"
-    "experience projects projects"
-    "hobbies blogs blogs"
-    "footer footer footer";
-  grid-template-columns: repeat(3, 1fr);
+    "bio bio fe be"
+    "bio bio projects projects"
+    "bio bio projects projects"
+    "experience experience projects projects"
+    "experience experience projects projects"
+    "hobbies blogs blogs blogs"
+    "footer footer footer footer";
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   padding: 1.5rem;
+
+  @media only screen and (max-width: $medium) {
+    grid-template-areas:
+    "bio bio bio bio"
+    "fe fe be be"
+    "experience experience experience experience"
+    "projects projects projects projects"
+    "projects projects projects projects"
+    "hobbies hobbies blogs blogs"
+    "hoobies hoobies blogs blogs"
+    "footer footer footer footer";
+  }
+
 }
 
 .biography-area{

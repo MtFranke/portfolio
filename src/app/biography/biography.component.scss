@@ -1,6 +1,8 @@
 @import "../variabels";
 @import "../fonts";
 
+$img-height:15rem;
+
 section{
   background-color: $white1;
   border-radius: $component-bradius;
@@ -36,20 +38,38 @@ article{
   background-repeat: no-repeat;
   background-position: 50% 40%;
   background-size: 800px;
-  height: 15rem;
+  height: $img-height;
   border-radius: 1rem;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
-  p{
-    color:$grey2;
+
+  p {
+    color: $grey2;
     margin: 0;
     font-size: 0.9rem;
     padding-left: 0.5rem;
   }
-  i{
+
+  i {
     color: $grey2;
+  }
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media only screen and (max-width: $medium) {
+    grid-template-columns: $img-height 1fr;
+  }
+}
+
+.biography{
+  @media only screen and (max-width: $medium) {
+    padding-left: $component-padding;
   }
 }
