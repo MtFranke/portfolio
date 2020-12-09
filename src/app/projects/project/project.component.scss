@@ -1,7 +1,7 @@
 @import "../../variabels";
 $image-column-size: 15rem;
 
-.grid{
+.grid {
   background-color: $white1;
   border-radius: $component-bradius;
   padding: $component-padding;
@@ -9,14 +9,21 @@ $image-column-size: 15rem;
   grid-template-columns: $image-column-size 1fr;
   grid-column-gap: 2rem;
   font-family: 'Montserrat', sans-serif;
+  @media only screen and (max-width: $small) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+  }
 }
-
 .img{
   background-repeat: no-repeat;
   background-size: 20rem;
   background-position: -4rem;
   height: $image-column-size;
   border-radius: 1rem;
+  @media only screen and (max-width: $small) {
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 ul{
@@ -45,6 +52,9 @@ article{
 
 .flex{
   display: flex;
+  @media only screen and (max-width: $small) {
+    justify-content: center;
+  }
 }
 button{
   border: none;
