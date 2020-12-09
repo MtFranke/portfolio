@@ -30,7 +30,19 @@ body{
     "hoobies hoobies blogs blogs"
     "footer footer footer footer";
   }
-
+  @media only screen and (max-width: $small) {
+    grid-template-areas:
+    "bio bio bio bio"
+    "bio bio bio bio"
+    "fe fe fe fe"
+    "be be be be"
+    "experience experience experience experience"
+    "projects projects projects projects"
+    "projects projects projects projects"
+    "hobbies hobbies hobbies hobbies"
+    "blogs blogs blogs blogs"
+    "footer footer footer footer";
+  }
 }
 
 .biography-area{
