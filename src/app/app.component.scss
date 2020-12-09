@@ -18,7 +18,16 @@ body{
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   padding: 1.5rem;
-
+  @media only screen and (max-width: $larger) {
+    grid-template-areas:
+    "bio bio experience experience"
+    "fe fe be be"
+    "projects projects projects projects"
+    "projects projects projects projects"
+    "hobbies blogs blogs blogs"
+    "hoobies blogs blogs blogs"
+    "footer footer footer footer";
+  }
   @media only screen and (max-width: $medium) {
     grid-template-areas:
     "bio bio bio bio"
@@ -73,4 +82,10 @@ body{
 
 .blogs-area{
   grid-area: blogs;
+}
+
+.component-default-styling{
+  background-color: $white1;
+  border-radius: $component-bradius;
+  padding: $component-padding;
 }
